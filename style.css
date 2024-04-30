@@ -1,0 +1,86 @@
+body{
+    background-color:rgb(72,25,94) ;
+}
+.mentorsimage{
+    border-radius: 70%;
+    margin-left: 30%;
+    margin-top: 25%;
+    border: solid 5px white;
+}
+ul{
+    -webkit-text-fill-color:beige;
+    font-size: 250%;
+    
+}
+.mentorsprofile{
+    display:flex;
+}
+.mentorsdetails{
+    margin-left: 20%;
+    margin-top: 8%;
+}
+.navbar{
+    
+    background-color: rgb(211,176,228);
+    height:8vh;
+    font-size:x-large;
+}
+a{
+    text-decoration: none;
+    padding:12px;
+    -webkit-text-fill-color: black;
+    font-size: 100%;
+    padding-left: 4%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@media screen and  (max-width: 650px){
+    body{
+        background-color:rgb(72,25,94) ;
+    }
+    .mentorsimage{
+        border-radius: 50px;
+        width:100px;
+        /* margin-left: 30%; */
+        /* margin-top: 25%; */
+        border: solid 3px white;
+        margin-top: 8%;
+    }
+    /* ul{
+        -webkit-text-fill-color:beige;
+        font-size: 90%;
+        
+    } */
+    .mentorsprofile{
+        /* display:flex; */
+        display: grid ;
+        grid-column: auto;
+        margin-top: 12%;
+    }
+    .mentorsdetails{
+        margin-left: 15%;
+        margin-top: 8%;
+    }
+    .navbar{
+        
+        background-color: rgb(211,176,228);
+        height:8vh;
+        font-size:x-large;
+        display: flex;
+    }
+    a{
+        text-decoration: none;
+        padding:12px;
+        -webkit-text-fill-color: black;
+        font-size: 70%;
+        /* padding-left: 4%; */
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        display: grid;
+    }
+    p{
+       font-size: medium;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+}
